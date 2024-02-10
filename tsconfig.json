@@ -5,15 +5,10 @@
     "strict": true,
     "jsx": "react-native",
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "typeRoots": ["./src/types"]
   },
-  "include": [
-    "./App.tsx",
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ],
+  "include": ["./App.tsx", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"],
   "extends": "expo/tsconfig.base"
 }
